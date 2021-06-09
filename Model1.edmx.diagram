@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f1bd55f71b264171ae56dd7b07a14507" Name="Diagram1">
+        <EntityTypeShape EntityType="EF_Project_1Model.client" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.outgoing_permission" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.store" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.supplier" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.supply_permission" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.sysdiagram" Width="1.5" PointX="2.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF_Project_1Model.type" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="EF_Project_1Model.FK_outgoing_permission_client" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Project_1Model.FK_outgoing_permission_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Project_1Model.FK_outgoing_permission_type" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Project_1Model.FK_supply_permission_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Project_1Model.FK_supply_permission_supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="EF_Project_1Model.FK_supply_permission_type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
